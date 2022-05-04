@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Practical Work No. 2</string>
+    <string name="sumar">ADD</string>
+    <string name="ocultar">Disguise</string>
+    <string name="zoomAlejar">ZOOM-</string>
+    <string name="zoomAcercar">ZOOM+</string>
+    <string name="restar">subtract</string>
+    <string name="reiniciar">RESET</string>
+    <string name="conversor_monedas">Currency Converter</string>
+    <string name="ingrese_monto_en_pesos">enter amount in pesos</string>
+    <string name="seleccione_una_moneda">select a currency</string>
+    <string name="btnReiniciar">Restart</string>
+    <string name="btnConvertir">Convert</string>
+    <string name="txtResultado">Outcome</string>
+</resources>

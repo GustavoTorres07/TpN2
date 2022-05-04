@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#70673AB7"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSumar"
+        android:layout_width="119dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="460dp"
+        android:text="@string/sumar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnOcultar"
+        android:layout_width="119dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="604dp"
+        android:text="@string/ocultar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnZoomAlejar"
+        android:layout_width="119dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginEnd="52dp"
+        android:text="@string/zoomAlejar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnZoomAcercar"
+        android:layout_width="119dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="532dp"
+        android:text="@string/zoomAcercar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnRestar"
+        android:layout_width="133dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="36dp"
+        android:text="@string/restar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/editnum"
+        android:layout_width="56dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="384dp"
+        android:layout_marginEnd="176dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:labelFor="@id/editnum"
+        android:text="@string/editnum"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="199dp"
+        android:layout_height="267dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="104dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_1"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/img1" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="144dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="604dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/reiniciar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

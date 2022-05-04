@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Travail Pratique N°2</string>
+    <string name="sumar">AJOUTER</string>
+    <string name="ocultar">ACHER</string>
+    <string name="restar">SOUSTRAIRE</string>
+    <string name="zoomAlejar">ZOOM-</string>
+    <string name="zoomAcercar">ZOOM+</string>
+    <string name="reiniciar">Redémarrer</string>
+    <string name="conversor_monedas">Convertisseur de Devises</string>
+    <string name="ingrese_monto_en_pesos">Entrer le Montant en Pesos</string>
+    <string name="seleccione_una_moneda">Sélectionner une Devise</string>
+    <string name="btnReiniciar">Redémarrer</string>
+    <string name="btnConvertir">Convertir</string>
+    <string name="txtResultado">Résultat</string>
+</resources>

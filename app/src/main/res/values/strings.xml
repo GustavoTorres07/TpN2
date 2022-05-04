@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Trabajo Practico N°2</string>
+    <string name="sumar">SUMAR</string>
+    <string name="ocultar">OCULTAR</string>
+    <string name="restar">RESTAR</string>
+    <string name="editnum" translatable="false">0</string>
+    <string name="img1" translatable="false">TODO</string>
+    <string name="zoomAcercar">ZOOM+</string>
+    <string name="zoomAlejar">ZOOM-</string>
+    <string name="reiniciar">Reiniciar</string>
+    <string name="conversor_monedas">Conversor Monedas</string>
+    <string name="ingrese_monto_en_pesos">Ingrese Monto en Pesos</string>
+    <string name="seleccione_una_moneda">Seleccione una Moneda</string>
+    <string name="rbDolar" translatable="false">RadioButton</string>
+    <string name="rbeuro" translatable="false">EURO</string>
+    <string name="rbReal" translatable="false">REAL (BRASIL)</string>
+    <string name="btnReiniciar">REINICIAR</string>
+    <string name="btnConvertir">CONVERTIR</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="txtResultado">Resultado</string>
+
+</resources>

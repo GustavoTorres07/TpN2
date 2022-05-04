@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7C673AB7"
+    tools:context=".SegundaActivity">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="214dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="100dp"
+        android:gravity="center"
+        android:text="@string/conversor_monedas"
+        android:textColor="#673AB7"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editmonto"
+        android:layout_width="235dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="272dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="number"
+        android:labelFor="@id/editmonto"
+        android:text="@string/ingrese_monto_en_pesos"
+        android:textColor="#5C5B5B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="234dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginEnd="88dp"
+        android:gravity="center"
+        android:text="@string/seleccione_una_moneda"
+        android:textColor="#E91E63"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <RadioButton
+        android:id="@+id/rbDolar"
+        android:layout_width="123dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="408dp"
+        android:layout_marginEnd="260dp"
+        android:buttonTint="#E91E63"
+        android:text="@string/rbDolar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="DOLAR (USA)" />
+
+    <RadioButton
+        android:id="@+id/rbEuro"
+        android:layout_width="123dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="456dp"
+        android:layout_marginEnd="260dp"
+        android:buttonTint="#E91E63"
+        android:text="@string/rbeuro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/rbReal"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="504dp"
+        android:layout_marginEnd="248dp"
+        android:backgroundTint="@color/black"
+        android:buttonTint="#E91E63"
+        android:text="@string/rbReal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnReiniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="664dp"
+        android:layout_marginEnd="68dp"
+        android:text="@string/btnReiniciar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="171dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="120dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_2"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/btnConvertir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="664dp"
+        android:text="@string/btnConvertir"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="124dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="584dp"
+        android:layout_marginEnd="144dp"
+        android:gravity="center"
+        android:text="@string/txtResultado"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
